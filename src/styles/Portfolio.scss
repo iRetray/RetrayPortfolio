@@ -1,0 +1,23 @@
+.PresentationContainer {
+  .titleGradient {
+    width: fit-content;
+    font-family: "Roboto Mono", monospace;
+    font-size: 80px;
+    display: flex;
+    letter-spacing: -4px;
+    flex-direction: column;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 700;
+    background-image: linear-gradient(
+      81.84deg,
+      #09f -9.4%,
+      #a033ff 51.57%,
+      #ff5280 84.07%,
+      #ff7061 90.59%
+    );
+  }
+  .description {
+    font-size: 25px;
+  }
+}
